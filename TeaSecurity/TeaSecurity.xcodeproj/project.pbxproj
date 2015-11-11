@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5358CFCA1BF2DB98001B6792 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5358CFC91BF2DB98001B6792 /* main.m */; };
+		5358CFCD1BF2DB98001B6792 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5358CFCC1BF2DB98001B6792 /* AppDelegate.m */; };
+		5358CFD01BF2DB98001B6792 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5358CFCF1BF2DB98001B6792 /* ViewController.m */; };
+		5358CFD31BF2DB98001B6792 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5358CFD11BF2DB98001B6792 /* Main.storyboard */; };
+		5358CFD51BF2DB98001B6792 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5358CFD41BF2DB98001B6792 /* Assets.xcassets */; };
+		5358CFD81BF2DB98001B6792 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5358CFD61BF2DB98001B6792 /* LaunchScreen.storyboard */; };
+		5358CFE31BF2DB98001B6792 /* TeaSecurityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5358CFE21BF2DB98001B6792 /* TeaSecurityTests.m */; };
+		5358CFEE1BF2DB98001B6792 /* TeaSecurityUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5358CFED1BF2DB98001B6792 /* TeaSecurityUITests.m */; };
+		5358CFFC1BF2DC78001B6792 /* login_TFBg.png in Resources */ = {isa = PBXBuildFile; fileRef = 5358CFFB1BF2DC78001B6792 /* login_TFBg.png */; };
+		5358CFFE1BF2DC91001B6792 /* log_rem_yes.png in Resources */ = {isa = PBXBuildFile; fileRef = 5358CFFD1BF2DC91001B6792 /* log_rem_yes.png */; };
+		5358D0001BF2DC98001B6792 /* log_rem_no.png in Resources */ = {isa = PBXBuildFile; fileRef = 5358CFFF1BF2DC98001B6792 /* log_rem_no.png */; };
+		5358D0051BF2E04A001B6792 /* tea.c in Sources */ = {isa = PBXBuildFile; fileRef = 5358D0031BF2E04A001B6792 /* tea.c */; };
+		5358D0081BF2E092001B6792 /* TeaSecurity.m in Sources */ = {isa = PBXBuildFile; fileRef = 5358D0071BF2E092001B6792 /* TeaSecurity.m */; };
+		5358D00E1BF2E163001B6792 /* SuccessVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5358D00D1BF2E163001B6792 /* SuccessVC.m */; };
+		5358D0111BF2E4D5001B6792 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 5358D0101BF2E4D5001B6792 /* GTMBase64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5358CFDF1BF2DB98001B6792 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5358CFBD1BF2DB98001B6792 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5358CFC41BF2DB98001B6792;
+			remoteInfo = TeaSecurity;
+		};
+		5358CFEA1BF2DB98001B6792 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5358CFBD1BF2DB98001B6792 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5358CFC41BF2DB98001B6792;
+			remoteInfo = TeaSecurity;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5358CFC51BF2DB98001B6792 /* TeaSecurity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeaSecurity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5358CFC91BF2DB98001B6792 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5358CFCB1BF2DB98001B6792 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5358CFCC1BF2DB98001B6792 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5358CFCE1BF2DB98001B6792 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5358CFCF1BF2DB98001B6792 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5358CFD21BF2DB98001B6792 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5358CFD41BF2DB98001B6792 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5358CFD71BF2DB98001B6792 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5358CFD91BF2DB98001B6792 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5358CFDE1BF2DB98001B6792 /* TeaSecurityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeaSecurityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5358CFE21BF2DB98001B6792 /* TeaSecurityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TeaSecurityTests.m; sourceTree = "<group>"; };
+		5358CFE41BF2DB98001B6792 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5358CFE91BF2DB98001B6792 /* TeaSecurityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeaSecurityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5358CFED1BF2DB98001B6792 /* TeaSecurityUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TeaSecurityUITests.m; sourceTree = "<group>"; };
+		5358CFEF1BF2DB98001B6792 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5358CFFB1BF2DC78001B6792 /* login_TFBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_TFBg.png; sourceTree = "<group>"; };
+		5358CFFD1BF2DC91001B6792 /* log_rem_yes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = log_rem_yes.png; sourceTree = "<group>"; };
+		5358CFFF1BF2DC98001B6792 /* log_rem_no.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = log_rem_no.png; sourceTree = "<group>"; };
+		5358D0031BF2E04A001B6792 /* tea.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tea.c; sourceTree = "<group>"; };
+		5358D0041BF2E04A001B6792 /* tea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tea.h; sourceTree = "<group>"; };
+		5358D0061BF2E092001B6792 /* TeaSecurity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeaSecurity.h; sourceTree = "<group>"; };
+		5358D0071BF2E092001B6792 /* TeaSecurity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeaSecurity.m; sourceTree = "<group>"; };
+		5358D00C1BF2E163001B6792 /* SuccessVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuccessVC.h; sourceTree = "<group>"; };
+		5358D00D1BF2E163001B6792 /* SuccessVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuccessVC.m; sourceTree = "<group>"; };
+		5358D00F1BF2E4D5001B6792 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		5358D0101BF2E4D5001B6792 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		5358D0121BF2ED9F001B6792 /* GTMDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5358CFC21BF2DB98001B6792 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5358CFDB1BF2DB98001B6792 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5358CFE61BF2DB98001B6792 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5358CFBC1BF2DB98001B6792 = {
+			isa = PBXGroup;
+			children = (
+				5358CFC71BF2DB98001B6792 /* TeaSecurity */,
+				5358CFE11BF2DB98001B6792 /* TeaSecurityTests */,
+				5358CFEC1BF2DB98001B6792 /* TeaSecurityUITests */,
+				5358CFC61BF2DB98001B6792 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5358CFC61BF2DB98001B6792 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5358CFC51BF2DB98001B6792 /* TeaSecurity.app */,
+				5358CFDE1BF2DB98001B6792 /* TeaSecurityTests.xctest */,
+				5358CFE91BF2DB98001B6792 /* TeaSecurityUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5358CFC71BF2DB98001B6792 /* TeaSecurity */ = {
+			isa = PBXGroup;
+			children = (
+				5358D0021BF2E034001B6792 /* Tea */,
+				5358CFCB1BF2DB98001B6792 /* AppDelegate.h */,
+				5358CFCC1BF2DB98001B6792 /* AppDelegate.m */,
+				5358CFCE1BF2DB98001B6792 /* ViewController.h */,
+				5358CFCF1BF2DB98001B6792 /* ViewController.m */,
+				5358D00C1BF2E163001B6792 /* SuccessVC.h */,
+				5358D00D1BF2E163001B6792 /* SuccessVC.m */,
+				5358CFD11BF2DB98001B6792 /* Main.storyboard */,
+				5358CFD41BF2DB98001B6792 /* Assets.xcassets */,
+				5358CFD61BF2DB98001B6792 /* LaunchScreen.storyboard */,
+				5358CFD91BF2DB98001B6792 /* Info.plist */,
+				5358CFC81BF2DB98001B6792 /* Supporting Files */,
+			);
+			path = TeaSecurity;
+			sourceTree = "<group>";
+		};
+		5358CFC81BF2DB98001B6792 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5358CFFF1BF2DC98001B6792 /* log_rem_no.png */,
+				5358CFFD1BF2DC91001B6792 /* log_rem_yes.png */,
+				5358CFFB1BF2DC78001B6792 /* login_TFBg.png */,
+				5358CFC91BF2DB98001B6792 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5358CFE11BF2DB98001B6792 /* TeaSecurityTests */ = {
+			isa = PBXGroup;
+			children = (
+				5358CFE21BF2DB98001B6792 /* TeaSecurityTests.m */,
+				5358CFE41BF2DB98001B6792 /* Info.plist */,
+			);
+			path = TeaSecurityTests;
+			sourceTree = "<group>";
+		};
+		5358CFEC1BF2DB98001B6792 /* TeaSecurityUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5358CFED1BF2DB98001B6792 /* TeaSecurityUITests.m */,
+				5358CFEF1BF2DB98001B6792 /* Info.plist */,
+			);
+			path = TeaSecurityUITests;
+			sourceTree = "<group>";
+		};
+		5358D0021BF2E034001B6792 /* Tea */ = {
+			isa = PBXGroup;
+			children = (
+				5358D0121BF2ED9F001B6792 /* GTMDefines.h */,
+				5358D00F1BF2E4D5001B6792 /* GTMBase64.h */,
+				5358D0101BF2E4D5001B6792 /* GTMBase64.m */,
+				5358D0031BF2E04A001B6792 /* tea.c */,
+				5358D0041BF2E04A001B6792 /* tea.h */,
+				5358D0061BF2E092001B6792 /* TeaSecurity.h */,
+				5358D0071BF2E092001B6792 /* TeaSecurity.m */,
+			);
+			name = Tea;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5358CFC41BF2DB98001B6792 /* TeaSecurity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5358CFF21BF2DB98001B6792 /* Build configuration list for PBXNativeTarget "TeaSecurity" */;
+			buildPhases = (
+				5358CFC11BF2DB98001B6792 /* Sources */,
+				5358CFC21BF2DB98001B6792 /* Frameworks */,
+				5358CFC31BF2DB98001B6792 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TeaSecurity;
+			productName = TeaSecurity;
+			productReference = 5358CFC51BF2DB98001B6792 /* TeaSecurity.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5358CFDD1BF2DB98001B6792 /* TeaSecurityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5358CFF51BF2DB98001B6792 /* Build configuration list for PBXNativeTarget "TeaSecurityTests" */;
+			buildPhases = (
+				5358CFDA1BF2DB98001B6792 /* Sources */,
+				5358CFDB1BF2DB98001B6792 /* Frameworks */,
+				5358CFDC1BF2DB98001B6792 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5358CFE01BF2DB98001B6792 /* PBXTargetDependency */,
+			);
+			name = TeaSecurityTests;
+			productName = TeaSecurityTests;
+			productReference = 5358CFDE1BF2DB98001B6792 /* TeaSecurityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5358CFE81BF2DB98001B6792 /* TeaSecurityUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5358CFF81BF2DB98001B6792 /* Build configuration list for PBXNativeTarget "TeaSecurityUITests" */;
+			buildPhases = (
+				5358CFE51BF2DB98001B6792 /* Sources */,
+				5358CFE61BF2DB98001B6792 /* Frameworks */,
+				5358CFE71BF2DB98001B6792 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5358CFEB1BF2DB98001B6792 /* PBXTargetDependency */,
+			);
+			name = TeaSecurityUITests;
+			productName = TeaSecurityUITests;
+			productReference = 5358CFE91BF2DB98001B6792 /* TeaSecurityUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5358CFBD1BF2DB98001B6792 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = TC;
+				TargetAttributes = {
+					5358CFC41BF2DB98001B6792 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					5358CFDD1BF2DB98001B6792 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 5358CFC41BF2DB98001B6792;
+					};
+					5358CFE81BF2DB98001B6792 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 5358CFC41BF2DB98001B6792;
+					};
+				};
+			};
+			buildConfigurationList = 5358CFC01BF2DB98001B6792 /* Build configuration list for PBXProject "TeaSecurity" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5358CFBC1BF2DB98001B6792;
+			productRefGroup = 5358CFC61BF2DB98001B6792 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5358CFC41BF2DB98001B6792 /* TeaSecurity */,
+				5358CFDD1BF2DB98001B6792 /* TeaSecurityTests */,
+				5358CFE81BF2DB98001B6792 /* TeaSecurityUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5358CFC31BF2DB98001B6792 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5358CFFC1BF2DC78001B6792 /* login_TFBg.png in Resources */,
+				5358CFD81BF2DB98001B6792 /* LaunchScreen.storyboard in Resources */,
+				5358CFFE1BF2DC91001B6792 /* log_rem_yes.png in Resources */,
+				5358CFD51BF2DB98001B6792 /* Assets.xcassets in Resources */,
+				5358D0001BF2DC98001B6792 /* log_rem_no.png in Resources */,
+				5358CFD31BF2DB98001B6792 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5358CFDC1BF2DB98001B6792 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5358CFE71BF2DB98001B6792 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5358CFC11BF2DB98001B6792 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5358D0081BF2E092001B6792 /* TeaSecurity.m in Sources */,
+				5358D0051BF2E04A001B6792 /* tea.c in Sources */,
+				5358CFD01BF2DB98001B6792 /* ViewController.m in Sources */,
+				5358CFCD1BF2DB98001B6792 /* AppDelegate.m in Sources */,
+				5358D00E1BF2E163001B6792 /* SuccessVC.m in Sources */,
+				5358CFCA1BF2DB98001B6792 /* main.m in Sources */,
+				5358D0111BF2E4D5001B6792 /* GTMBase64.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5358CFDA1BF2DB98001B6792 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5358CFE31BF2DB98001B6792 /* TeaSecurityTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5358CFE51BF2DB98001B6792 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5358CFEE1BF2DB98001B6792 /* TeaSecurityUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5358CFE01BF2DB98001B6792 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5358CFC41BF2DB98001B6792 /* TeaSecurity */;
+			targetProxy = 5358CFDF1BF2DB98001B6792 /* PBXContainerItemProxy */;
+		};
+		5358CFEB1BF2DB98001B6792 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5358CFC41BF2DB98001B6792 /* TeaSecurity */;
+			targetProxy = 5358CFEA1BF2DB98001B6792 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5358CFD11BF2DB98001B6792 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5358CFD21BF2DB98001B6792 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5358CFD61BF2DB98001B6792 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5358CFD71BF2DB98001B6792 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5358CFF01BF2DB98001B6792 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5358CFF11BF2DB98001B6792 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5358CFF31BF2DB98001B6792 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TeaSecurity/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TC.TeaSecurity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5358CFF41BF2DB98001B6792 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TeaSecurity/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TC.TeaSecurity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5358CFF61BF2DB98001B6792 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TeaSecurityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TC.TeaSecurityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TeaSecurity.app/TeaSecurity";
+			};
+			name = Debug;
+		};
+		5358CFF71BF2DB98001B6792 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TeaSecurityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TC.TeaSecurityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TeaSecurity.app/TeaSecurity";
+			};
+			name = Release;
+		};
+		5358CFF91BF2DB98001B6792 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TeaSecurityUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TC.TeaSecurityUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TeaSecurity;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		5358CFFA1BF2DB98001B6792 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TeaSecurityUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TC.TeaSecurityUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TeaSecurity;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5358CFC01BF2DB98001B6792 /* Build configuration list for PBXProject "TeaSecurity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5358CFF01BF2DB98001B6792 /* Debug */,
+				5358CFF11BF2DB98001B6792 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5358CFF21BF2DB98001B6792 /* Build configuration list for PBXNativeTarget "TeaSecurity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5358CFF31BF2DB98001B6792 /* Debug */,
+				5358CFF41BF2DB98001B6792 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5358CFF51BF2DB98001B6792 /* Build configuration list for PBXNativeTarget "TeaSecurityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5358CFF61BF2DB98001B6792 /* Debug */,
+				5358CFF71BF2DB98001B6792 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5358CFF81BF2DB98001B6792 /* Build configuration list for PBXNativeTarget "TeaSecurityUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5358CFF91BF2DB98001B6792 /* Debug */,
+				5358CFFA1BF2DB98001B6792 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5358CFBD1BF2DB98001B6792 /* Project object */;
+}
