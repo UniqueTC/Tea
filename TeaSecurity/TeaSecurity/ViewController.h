@@ -4,7 +4,7 @@
 //
 //  Created by TC on 15/11/11.
 //  Copyright © 2015年 TC. All rights reserved.
-//
+//  个人对Tea的使用见解，代码写的比较简单
 
 #import <UIKit/UIKit.h>
 #import "TeaSecurity.h"
